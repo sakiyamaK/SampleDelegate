@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PvA-5U-eNb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ta1-u6-3xb">
+            <objects>
+                <navigationController id="PvA-5U-eNb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DpR-q5-JGw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1of-Qs-fNh" kind="relationship" relationship="rootViewController" id="0f4-9a-6eJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KH7-TY-WL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226" y="108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xhg-aR-cAb">
+            <objects>
+                <viewController id="1of-Qs-fNh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hmc-uW-og4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2c1-87-m0Z">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-0w-bJd">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="387"/>
+                                        <state key="normal" title="NoDelegate"/>
+                                        <connections>
+                                            <segue destination="n0D-V3-MlA" kind="show" id="nIh-DR-Rri"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4w-KV-HxF">
+                                        <rect key="frame" x="0.0" y="387" width="414" height="387"/>
+                                        <state key="normal" title="Delegate"/>
+                                        <connections>
+                                            <segue destination="r0G-4a-Q6c" kind="show" id="2r7-NI-6G1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2c1-87-m0Z" firstAttribute="leading" secondItem="Rqa-pz-QzM" secondAttribute="leading" id="TiB-me-vVu"/>
+                            <constraint firstItem="Rqa-pz-QzM" firstAttribute="bottom" secondItem="2c1-87-m0Z" secondAttribute="bottom" id="YtP-BS-BWr"/>
+                            <constraint firstItem="2c1-87-m0Z" firstAttribute="top" secondItem="Rqa-pz-QzM" secondAttribute="top" id="eGR-3c-wGb"/>
+                            <constraint firstItem="Rqa-pz-QzM" firstAttribute="trailing" secondItem="2c1-87-m0Z" secondAttribute="trailing" id="zsa-44-g1B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rqa-pz-QzM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jYU-jH-MLs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ZG-pc-mAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="108"/>
+        </scene>
+        <!--Delegate1-->
+        <scene sceneID="7bL-Te-obG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Delegate1" id="r0G-4a-Q6c" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Nls-vr-yKQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDF-ny-NzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1201" y="221"/>
+        </scene>
+        <!--NoDelegate1-->
+        <scene sceneID="NL7-kv-Yzn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NoDelegate1" id="n0D-V3-MlA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DMR-B3-hyo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azh-BK-ebQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071" y="-90"/>
+        </scene>
+    </scenes>
+</document>
