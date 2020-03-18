@@ -12,8 +12,8 @@ import UIKit
 //classの継承はひとつしかできないのでここが違う
 class Coordinator: Delegate1ViewControllerDelegate, Delegate2ViewControllerDelegate {
 
+    //シングルトンパターンの書き方 (いずれ説明、あまり使っちゃダメな手段なので説明はぶく)
     static let shared = Coordinator()
-
     private init(){}
 
     func startVC(nowVC: UIViewController) {
@@ -57,7 +57,8 @@ class Coordinator: Delegate1ViewControllerDelegate, Delegate2ViewControllerDeleg
  */
 
 //class Coordinator {
-//    //本来はここにも状況に合わせて必要な実装が入るもの
+//    static let shared = Coordinator()
+//    private init(){}
 //}
 //
 //extension Coordinator: Delegate1ViewControllerDelegate{
