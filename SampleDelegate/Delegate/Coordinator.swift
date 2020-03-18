@@ -11,13 +11,30 @@ import UIKit
 //Delegateの実装は複数もつことができる
 //classの継承はひとつしかできないのでここが違う
 class Coordinator: Delegate1ViewControllerDelegate, Delegate2ViewControllerDelegate {
+
+    static let shared = Coordinator()
+
+    private init(){}
+
+    func startVC(nowVC: UIViewController) {
+        guard
+            let navigationController = nowVC.navigationController,
+            let vc = UIStoryboard.init(name: "Delegate1", bundle: nil).instantiateInitialViewController() as? Delegate1ViewController else {
+                return
+        }
+
+        vc.delegate = self
+        navigationController.pushViewController(vc, animated: true)
+
+    }
     //Delegate1ViewControllerDelegateがもつfunctionの実装はこのファイルにある
     func touchButtonDelegate1(nowVC: Delegate1ViewController) {
         guard
             let navigationController = nowVC.navigationController,
-            let vc = UIStoryboard.init(name: "Delegate2", bundle: nil).instantiateInitialViewController() else {
+            let vc = UIStoryboard.init(name: "Delegate2", bundle: nil).instantiateInitialViewController()  as? Delegate2ViewController else {
             return
         }
+        vc.delegate = self
         navigationController.pushViewController(vc, animated: true)
     }
 
@@ -26,7 +43,7 @@ class Coordinator: Delegate1ViewControllerDelegate, Delegate2ViewControllerDeleg
     func touchButtonDelegate2(nowVC: Delegate2ViewController) {
         guard
             let navigationController = nowVC.navigationController,
-            let vc = UIStoryboard.init(name: "Delegate3", bundle: nil).instantiateInitialViewController() else {
+            let vc = UIStoryboard.init(name: "Delegate3", bundle: nil).instantiateInitialViewController() as? Delegate3ViewController else {
                 return
         }
         navigationController.pushViewController(vc, animated: true)

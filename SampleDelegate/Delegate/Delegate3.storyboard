@@ -10,7 +10,7 @@
         <!--Delegate3-->
         <scene sceneID="y8b-v9-z1L">
             <objects>
-                <viewController title="Delegate3" id="Bqf-Kn-Kl7" sceneMemberID="viewController">
+                <viewController title="Delegate3" id="Bqf-Kn-Kl7" customClass="Delegate3ViewController" customModule="SampleDelegate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S6D-cx-Stf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

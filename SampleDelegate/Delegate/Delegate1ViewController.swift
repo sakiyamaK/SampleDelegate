@@ -15,13 +15,7 @@ protocol Delegate1ViewControllerDelegate: AnyObject {
 
 class Delegate1ViewController: UIViewController {
 
-    var coordinator: Coordinator = Coordinator()
     weak var delegate: Delegate1ViewControllerDelegate?
-
-    override func viewDidLoad() {
-        //Delegate1ViewControllerDelegateのメソッドを実装しているクラスを代入できる
-        delegate = coordinator
-    }
 
     @IBAction func touchButton(_ sender: Any) {
         //delegateをの実装を持ってるファイルに処理を任せます(移譲)

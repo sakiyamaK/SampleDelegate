@@ -26,7 +26,7 @@
         <!--View Controller-->
         <scene sceneID="xhg-aR-cAb">
             <objects>
-                <viewController id="1of-Qs-fNh" sceneMemberID="viewController">
+                <viewController id="1of-Qs-fNh" customClass="ViewController" customModule="SampleDelegate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hmc-uW-og4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
                                         <rect key="frame" x="0.0" y="387" width="414" height="387"/>
                                         <state key="normal" title="Delegate"/>
                                         <connections>
-                                            <segue destination="r0G-4a-Q6c" kind="show" id="2r7-NI-6G1"/>
+                                            <action selector="touchDelegateButton:" destination="1of-Qs-fNh" eventType="touchUpInside" id="Tef-uG-Cxc"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -65,16 +65,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ZG-pc-mAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="506" y="108"/>
-        </scene>
-        <!--Delegate1-->
-        <scene sceneID="7bL-Te-obG">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Delegate1" id="r0G-4a-Q6c" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Nls-vr-yKQ"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PDF-ny-NzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1201" y="221"/>
         </scene>
         <!--NoDelegate1-->
         <scene sceneID="NL7-kv-Yzn">
