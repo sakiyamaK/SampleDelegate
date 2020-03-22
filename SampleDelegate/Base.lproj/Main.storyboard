@@ -35,17 +35,31 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-0w-bJd">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="387"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
                                         <state key="normal" title="NoDelegate"/>
                                         <connections>
                                             <segue destination="n0D-V3-MlA" kind="show" id="nIh-DR-Rri"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4w-KV-HxF">
-                                        <rect key="frame" x="0.0" y="387" width="414" height="387"/>
+                                        <rect key="frame" x="0.0" y="193.5" width="414" height="193.5"/>
                                         <state key="normal" title="Delegate"/>
                                         <connections>
                                             <action selector="touchDelegateButton:" destination="1of-Qs-fNh" eventType="touchUpInside" id="Tef-uG-Cxc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXK-Ag-NEF">
+                                        <rect key="frame" x="0.0" y="387" width="414" height="193.5"/>
+                                        <state key="normal" title="TableView"/>
+                                        <connections>
+                                            <segue destination="9X2-nl-NiD" kind="show" id="wUv-0V-Ir4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JO-cH-gc3">
+                                        <rect key="frame" x="0.0" y="580.5" width="414" height="193.5"/>
+                                        <state key="normal" title="ClosureDeleagate"/>
+                                        <connections>
+                                            <action selector="touchClosreDelegateButton:" destination="1of-Qs-fNh" eventType="touchUpInside" id="FFh-WE-TTW"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -65,6 +79,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ZG-pc-mAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="506" y="108"/>
+        </scene>
+        <!--MyTable-->
+        <scene sceneID="I9B-5g-bdr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyTable" id="9X2-nl-NiD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WvM-BD-rO9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2V-s8-LV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143" y="285"/>
         </scene>
         <!--NoDelegate1-->
         <scene sceneID="NL7-kv-Yzn">

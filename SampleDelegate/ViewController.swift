@@ -19,5 +19,8 @@ class ViewController: UIViewController {
         Coordinator.shared.startVC(nowVC: self)
     }
 
+    @IBAction func touchClosreDelegateButton(_ sender: Any) {
+        ClosureCoordinator.shared.startVC(nowVC: self)
+    }
 }
 

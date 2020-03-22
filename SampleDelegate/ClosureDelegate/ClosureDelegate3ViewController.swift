@@ -6,4 +6,8 @@
 //  Copyright © 2020 sakiyamaK. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ClosureDelegate3ViewController: UIViewController {
+
+}

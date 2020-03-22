@@ -15,6 +15,15 @@
 		B6693597241FDA2E00B7B280 /* NoDelegate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6693596241FDA2E00B7B280 /* NoDelegate2ViewController.swift */; };
 		B6693599241FDA4400B7B280 /* NoDelegate3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6693598241FDA4400B7B280 /* NoDelegate3.storyboard */; };
 		B669359B241FDA4E00B7B280 /* NoDelegate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669359A241FDA4E00B7B280 /* NoDelegate3ViewController.swift */; };
+		B66973A42424801B002FDC89 /* MyTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66973A32424801B002FDC89 /* MyTable.storyboard */; };
+		B66973A624248027002FDC89 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66973A524248027002FDC89 /* MyTableViewController.swift */; };
+		B66973EA24266342002FDC89 /* ClosureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66973E924266342002FDC89 /* ClosureCoordinator.swift */; };
+		B66973EC2426636F002FDC89 /* ClosureDelegate1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66973EB2426636F002FDC89 /* ClosureDelegate1.storyboard */; };
+		B66973EE24266380002FDC89 /* ClosureDelegate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66973ED24266380002FDC89 /* ClosureDelegate1ViewController.swift */; };
+		B66973F0242665C7002FDC89 /* ClosureDelegate2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66973EF242665C7002FDC89 /* ClosureDelegate2.storyboard */; };
+		B66973F2242665DA002FDC89 /* ClosureDelegate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66973F1242665DA002FDC89 /* ClosureDelegate2ViewController.swift */; };
+		B66973F4242665E6002FDC89 /* ClosureDelegate3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66973F3242665E6002FDC89 /* ClosureDelegate3.storyboard */; };
+		B66973F6242665F2002FDC89 /* ClosureDelegate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66973F5242665F2002FDC89 /* ClosureDelegate3ViewController.swift */; };
 		B6F837FE241E03D2000172BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F837FD241E03D2000172BB /* AppDelegate.swift */; };
 		B6F83802241E03D2000172BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F83801241E03D2000172BB /* ViewController.swift */; };
 		B6F83805241E03D2000172BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F83803241E03D2000172BB /* Main.storyboard */; };
@@ -55,6 +64,15 @@
 		B6693596241FDA2E00B7B280 /* NoDelegate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDelegate2ViewController.swift; sourceTree = "<group>"; };
 		B6693598241FDA4400B7B280 /* NoDelegate3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoDelegate3.storyboard; sourceTree = "<group>"; };
 		B669359A241FDA4E00B7B280 /* NoDelegate3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDelegate3ViewController.swift; sourceTree = "<group>"; };
+		B66973A32424801B002FDC89 /* MyTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyTable.storyboard; sourceTree = "<group>"; };
+		B66973A524248027002FDC89 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		B66973E924266342002FDC89 /* ClosureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureCoordinator.swift; sourceTree = "<group>"; };
+		B66973EB2426636F002FDC89 /* ClosureDelegate1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClosureDelegate1.storyboard; sourceTree = "<group>"; };
+		B66973ED24266380002FDC89 /* ClosureDelegate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDelegate1ViewController.swift; sourceTree = "<group>"; };
+		B66973EF242665C7002FDC89 /* ClosureDelegate2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClosureDelegate2.storyboard; sourceTree = "<group>"; };
+		B66973F1242665DA002FDC89 /* ClosureDelegate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDelegate2ViewController.swift; sourceTree = "<group>"; };
+		B66973F3242665E6002FDC89 /* ClosureDelegate3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClosureDelegate3.storyboard; sourceTree = "<group>"; };
+		B66973F5242665F2002FDC89 /* ClosureDelegate3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDelegate3ViewController.swift; sourceTree = "<group>"; };
 		B6F837FA241E03D2000172BB /* SampleDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F837FD241E03D2000172BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6F83801241E03D2000172BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +118,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66973A224248003002FDC89 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				B66973A32424801B002FDC89 /* MyTable.storyboard */,
+				B66973A524248027002FDC89 /* MyTableViewController.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		B66973E82426631C002FDC89 /* ClosureDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B66973E924266342002FDC89 /* ClosureCoordinator.swift */,
+				B66973EB2426636F002FDC89 /* ClosureDelegate1.storyboard */,
+				B66973ED24266380002FDC89 /* ClosureDelegate1ViewController.swift */,
+				B66973EF242665C7002FDC89 /* ClosureDelegate2.storyboard */,
+				B66973F1242665DA002FDC89 /* ClosureDelegate2ViewController.swift */,
+				B66973F3242665E6002FDC89 /* ClosureDelegate3.storyboard */,
+				B66973F5242665F2002FDC89 /* ClosureDelegate3ViewController.swift */,
+			);
+			path = ClosureDelegate;
+			sourceTree = "<group>";
+		};
 		B6F837F1241E03D2000172BB = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +164,8 @@
 		B6F837FC241E03D2000172BB /* SampleDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				B66973E82426631C002FDC89 /* ClosureDelegate */,
+				B66973A224248003002FDC89 /* UITableView */,
 				B6F8382E241E04F1000172BB /* Delegate */,
 				B6F8382D241E04EA000172BB /* NoDelegate */,
 				B6F837FD241E03D2000172BB /* AppDelegate.swift */,
@@ -287,11 +330,15 @@
 				B6F8380A241E03D4000172BB /* LaunchScreen.storyboard in Resources */,
 				B6693593241FD78F00B7B280 /* Delegate3.storyboard in Resources */,
 				B6F83836241E054B000172BB /* NoDelegate2.storyboard in Resources */,
+				B66973A42424801B002FDC89 /* MyTable.storyboard in Resources */,
+				B66973F4242665E6002FDC89 /* ClosureDelegate3.storyboard in Resources */,
+				B66973F0242665C7002FDC89 /* ClosureDelegate2.storyboard in Resources */,
 				B6F83807241E03D4000172BB /* Assets.xcassets in Resources */,
 				B6F83834241E053F000172BB /* NoDelegate1.storyboard in Resources */,
 				B6693599241FDA4400B7B280 /* NoDelegate3.storyboard in Resources */,
 				B6F83805241E03D2000172BB /* Main.storyboard in Resources */,
 				B6F83832241E0534000172BB /* Delegate2.storyboard in Resources */,
+				B66973EC2426636F002FDC89 /* ClosureDelegate1.storyboard in Resources */,
 				B6F83830241E0529000172BB /* Delegate1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,12 +367,17 @@
 				B6F83802241E03D2000172BB /* ViewController.swift in Sources */,
 				B6F83838241E0644000172BB /* NoDelegate1ViewController.swift in Sources */,
 				B6693591241FD6F400B7B280 /* Coordinator.swift in Sources */,
+				B66973A624248027002FDC89 /* MyTableViewController.swift in Sources */,
 				B6693597241FDA2E00B7B280 /* NoDelegate2ViewController.swift in Sources */,
+				B66973F6242665F2002FDC89 /* ClosureDelegate3ViewController.swift in Sources */,
 				B669358F241FD69000B7B280 /* Delegate2ViewController.swift in Sources */,
 				B6693595241FD79C00B7B280 /* Delegate3ViewController.swift in Sources */,
+				B66973EE24266380002FDC89 /* ClosureDelegate1ViewController.swift in Sources */,
+				B66973F2242665DA002FDC89 /* ClosureDelegate2ViewController.swift in Sources */,
 				B669359B241FDA4E00B7B280 /* NoDelegate3ViewController.swift in Sources */,
 				B6F837FE241E03D2000172BB /* AppDelegate.swift in Sources */,
 				B669358B241FD37000B7B280 /* Delegate1ViewController.swift in Sources */,
+				B66973EA24266342002FDC89 /* ClosureCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,4 +6,13 @@
 //  Copyright © 2020 sakiyamaK. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ClosureDelegate2ViewController: UIViewController {
+
+    var touchButtonDelegate: ((UIViewController)->Void)?
+
+    @IBAction func touchButton(_ sender: Any) {
+        touchButtonDelegate?(self)
+    }
+}
