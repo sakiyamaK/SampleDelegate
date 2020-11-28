@@ -10,9 +10,9 @@ import UIKit
 
 class ClosureDelegate1ViewController: UIViewController {
 
-    var touchButtonDelegate: ((UIViewController)->Void)?
+  var touchButtonDelegate: ((UIViewController)->Void)?
 
-    @IBAction func touchButton(_ sender: Any) {
-        touchButtonDelegate?(self)
-    }
+  @IBAction func touchButton(_ sender: Any) {
+    touchButtonDelegate?(self)
+  }
 }

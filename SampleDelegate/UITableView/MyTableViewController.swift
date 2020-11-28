@@ -19,7 +19,6 @@ class MyTableViewController: UIViewController {
     }
 }
 
-
 extension MyTableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("select cell \(indexPath)")
@@ -27,6 +26,7 @@ extension MyTableViewController: UITableViewDelegate {
 }
 
 extension MyTableViewController: UITableViewDataSource {
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }

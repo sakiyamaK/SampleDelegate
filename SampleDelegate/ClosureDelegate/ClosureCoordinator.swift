@@ -21,7 +21,9 @@ class ClosureCoordinator {
                 return
         }
 
-        vc.touchButtonDelegate = self.showClosureDelegate2VC /*ClosureCoordinator.shared.showClosureDelegate2VC でも同じ*/
+        vc.touchButtonDelegate = self.showClosureDelegate2VC
+//        vc.touchButtonDelegate = self.showClosureDelegate3VC
+      /*ClosureCoordinator.shared.showClosureDelegate2VC でも同じ*/
         navigationController.pushViewController(vc, animated: true)
     }
 
@@ -43,5 +45,4 @@ class ClosureCoordinator {
         }
         navigationController.pushViewController(vc, animated: true)
     }
-
 }
